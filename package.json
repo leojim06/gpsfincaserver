@@ -1,10 +1,10 @@
-{
+﻿{
   "name": "geofinca",
   "version": "1.0.0",
   "description": "Proyecto para administrar información de fincas y dueños a través de GPS",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon dist/server.js",
+    "start": "node server.js",
     "test": "mocha --reporter spec --compilers ts:ts-node/register test/**/*.spec.ts"
   },
   "repository": {
