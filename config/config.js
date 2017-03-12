@@ -5,7 +5,7 @@ var Config = (function () {
     return Config;
 }());
 Config.PORT = normalizePort(process.env.PORT || 3000);
-Config.DB = process.env.MONGOLAB_URI || "mongodb://leojim06:kairinyuna66@ds145359.mlab.com:45359/gpsfinca";
+Config.DB = process.env.MONGOLAB_URI || "mongodb://localhost/gpsfinca";
 Config.DB_TEST = process.env.MONGOLAB_URI || "mongodb://localhost/gpsfinca_test";
 Config.SECRET = "super.super.secret.shhh";
 exports.Config = Config;
